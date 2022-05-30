@@ -1,0 +1,20 @@
+.custom-signin-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-content: center;
+    align-items: center;
+}
+.custom-main-box{
+    max-width: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.error-red {
+    font-size: 1em;
+    color: red;
+    background-color: rgba(103, 1, 1, 0.81);
+    border: 2px solid red;
+    padding: 2px;
+    border-radius: 1rem;
+}

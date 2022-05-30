@@ -1,0 +1,41 @@
+.photo-box{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.custom-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    max-width: 40%;
+    background: white;
+}
+.age{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.colors{
+    display: flex;
+    height: 65%;
+    justify-content: center;
+    background: linear-gradient(45deg, white, #e4ffc4, #b5e48c, #99d98c, #76c893,#52b69a, #34a0a4, #168aad, #1a759f, #90bfde, white);
+}
+.custom-button{
+    border: 2px solid black;
+}

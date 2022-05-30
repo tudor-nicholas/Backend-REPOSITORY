@@ -1,0 +1,42 @@
+.grid-1 {
+    display: grid;
+    width: 100%;
+    max-width: 70em;
+    margin: auto;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-gap: 20px;
+}
+
+/* items */
+
+.grid-1 div {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.items{
+    background: linear-gradient(45deg, #e4ffc4, #b5e48c, #99d98c, #76c893,#52b69a, #34a0a4, #168aad, #1a759f, #90bfde);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    align-content: center;
+    align-items: center;
+}
+h3{
+    border-bottom: 2px solid white;
+}
+.star{
+    margin: 0px;
+}
+.star-png{
+    margin-bottom: 7px;
+}
+.custom-button-review{
+    border: 2px solid black;
+    width: 10%;
+}
+.create-box{
+    display: flex;
+    justify-content: flex-end;
+}

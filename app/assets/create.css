@@ -1,0 +1,12 @@
+.custom-signin-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-content: center;
+    align-items: center;
+}
+.custom-main-box{
+    max-width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
