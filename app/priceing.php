@@ -56,7 +56,7 @@ session_start();
                         <li>Email support</li>
                         <li>Help center access</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                    <a href="models/checkoutEditor.php" class="w-100 btn btn-lg btn-primary">Checkout</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ session_start();
                         <li>Email support</li>
                         <li>Help center access</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                    <a href="models/checkoutPro.php" class="w-100 btn btn-lg btn-primary">Checkout</a>
                 </div>
             </div>
         </div>
